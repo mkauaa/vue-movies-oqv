@@ -1,0 +1,55 @@
+/* variáveis de cores para usar no projeto */
+:root {
+  --color-text: #e9ecef;
+  --color-background: #000;
+  --color-primary: #e11d48; /* vermelho principal */
+  --color-secondary: #991b1b; /* vermelho escuro para hovers/gradientes */
+  --color-accent: #dc2626; /* acento vermelho */
+  --color-surface: #0b0b0b; /* cartões/headers quase pretos */
+  --color-surface-hover: #1a1a1a; /* hover mais claro */
+  --color-border: #262626; /* borda sutil */
+  --color-text-muted: #94a3b8;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  /* Cores cinematográficas para highlights */
+  --color-gold: #fbbf24; /* dourado para highlights */
+  --color-orange: #f97316; /* laranja para accents */
+  --color-primary-dark: #be123c; /* vermelho mais escuro */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

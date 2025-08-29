@@ -1,0 +1,23 @@
+@import './base.css';
+@import './utilities.css';
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  font-weight: normal;
+  background: #0f1419;
+  color: #e9ecef;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgba(225, 29, 72, 0.2);
+  }
+}
