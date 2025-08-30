@@ -53,12 +53,3 @@ App para descobrir filmes com filtros personalizados ou sorteio aleatório. Cons
 - `npm run lint` - Linter
 
 ## Estrutura
-
-```
-src/
-├── components/     # Componentes reutilizáveis
-├── views/         # Páginas da aplicação
-├── stores/        # Estado com Pinia
-├── services/      # API do TMDB
-└── router/        # Configuração de rotas
-```
