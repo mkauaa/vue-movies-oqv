@@ -51,5 +51,3 @@ App para descobrir filmes com filtros personalizados ou sorteio aleatório. Cons
 - `npm run build` - Build de produção
 - `npm run preview` - Preview do build
 - `npm run lint` - Linter
-
-## Estrutura
